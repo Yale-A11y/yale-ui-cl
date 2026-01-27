@@ -1,0 +1,34 @@
+{
+  "name": "yale-ui-cl",
+  "version": "1.0.0",
+  "description": "Yale UI Component Library",
+  "homepage": "https://github.com/Yale-A11y/yale-ui-cl#readme",
+  "bugs": {
+    "url": "https://github.com/Yale-A11y/yale-ui-cl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yale-A11y/yale-ui-cl.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "storybook": "^10.2.0",
+    "@storybook/html-vite": "^10.2.0",
+    "@chromatic-com/storybook": "^5.0.0",
+    "@storybook/addon-vitest": "^10.2.0",
+    "@storybook/addon-a11y": "^10.2.0",
+    "@storybook/addon-docs": "^10.2.0",
+    "vitest": "^4.0.17",
+    "playwright": "^1.57.0",
+    "@vitest/browser-playwright": "^4.0.17",
+    "@vitest/coverage-v8": "^4.0.17"
+  }
+}
