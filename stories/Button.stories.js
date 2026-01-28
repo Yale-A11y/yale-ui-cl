@@ -12,7 +12,6 @@ export default {
     return createButton({ label, ...args });
   },
   argTypes: {
-    backgroundColor: { control: 'color' },
     label: { control: 'text' },
     onClick: { action: 'onClick' },
     primary: { control: 'boolean' },
